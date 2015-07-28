@@ -24,7 +24,7 @@ Changes from original:
 (https://github.com/mikexstudios/dokku-app-configfiles/pull/5)
 - rename config directory from '.dokku' -> '.dokku-config'
 
-=============================== Original description =========================
++++ Original description +++
 Why would I use this?
 ---------------------
 
