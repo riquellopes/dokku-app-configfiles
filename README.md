@@ -73,7 +73,10 @@ Installation and Usage
 5. Push your app to dokku and the config files in `.dokku-config/*` should be copied to
    your app's directory (e.g. `/home/dokku/my-webapp/`) on the dokku server.
 
-   
+## Contributing
+
+Feel free to fork and create a Pull Request.
+
 License
 -------
 
