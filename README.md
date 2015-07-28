@@ -10,8 +10,8 @@ In short, per-app dokku config files are checked into the app's git repository
 under the directory `.dokku-config/`. Upon git push to the dokku server, any files in
 `.dokku-config/*` are copied to `/home/dokku/[app name]/`.
 
-[1]: https://github.com/progrium/dokku
-[2]: https://github.com/mikexstudios/dokku-app-configfiles
+[1] https://github.com/progrium/dokku
+[2] https://github.com/mikexstudios/dokku-app-configfiles
 
 Changes from original:
 
