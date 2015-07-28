@@ -26,8 +26,7 @@ Changes from original:
 (https://github.com/mikexstudios/dokku-app-configfiles/pull/5)
 - rename config directory from '.dokku' -> '.dokku-config'
 
-+++ Original description +++
-Why would I use this?
+Why would I use this? (original)
 ---------------------
 
 Although it is prudent to always keep server configuration files separate from
@@ -43,7 +42,7 @@ Installation and Usage
 
 1. Install the plugin by cloning into the dokku plugins directory:
     ```sh
-    git clone https://github.com/mikexstudios/dokku-app-configfiles.git /var/lib/dokku/plugins/app-configfiles
+    git clone https://github.com/alexkruegger/dokku-app-configfiles.git /var/lib/dokku/plugins/dokku-app-configfiles
     ```
 
 2. In your app's git repository (this is the app that you intend to push to
@@ -59,6 +58,7 @@ Installation and Usage
     ```sh
     cd my-webapp/.dokku-config/ 
     echo "export HELLO='world'" > ENV
+    echo "--name mywebapp" > DOCKER_OPTIONS_DEPLOY
     ```
     NOTE: In practice, you may not want to check sensitive environment variables
     (such as API keys) into your git repository if it is publically accessible.
