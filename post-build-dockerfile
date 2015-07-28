@@ -1,14 +1,1 @@
-#!/usr/bin/env bash
-set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
-
-APP="$1"; IMAGE="dokku/$APP"
-APP_PATH="$DOKKU_ROOT/$APP"
-CONFIG_PATH=".dokku-config"
-echo "-----> Copying any files from app's ${CONFIG_PATH}/* to ${APP_PATH}..."
-
-CONFIG_FILES=$(docker run --rm -i -a stdout $IMAGE /bin/bash -c "find /app/$CONFIG_PATH/ -type f")
-CID=$(docker run -d $IMAGE /bin/sh)
-for file in $CONFIG_FILES; do
-	docker cp $CID:$file $APP_PATH || true
-done
-docker rm -f $CID
+post-build-buildstep
