@@ -18,7 +18,7 @@ under the directory `.dokku-config/`. Upon git push to the dokku server, any fil
 * Dokku 0.3.17+ (for the `docker-options` plugin)
 
 Changes from original:
-=====================
+---------------------
 
 - rename hook 'pre-build' to 'pre-build-buildstep' / ln to 'pre-build-dockerfile'
 (https://github.com/mikexstudios/dokku-app-configfiles/pull/6)
