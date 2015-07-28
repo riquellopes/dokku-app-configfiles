@@ -1,7 +1,7 @@
 dokku-app-configfiles
 =====================
 
-dokku-app-configfiles is a plugin that allows [dokku][1] app config files (such
+Rewritten version of [dokku-app-configfiles][2] is a plugin that allows [dokku][1] app config files (such
 as `VHOST`, `ENV`, `DOCKER_OPTIONS`, `nginx.tpl` or `nginx.ssl.tpl`, etc. to be
 taken from the app's git repository. This eliminates the need to manually create
 these files on the dokku server.
