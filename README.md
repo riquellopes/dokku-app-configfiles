@@ -14,7 +14,6 @@ under the directory `.dokku-config/`. Upon git push to the dokku server, any fil
 [1]: https://github.com/progrium/dokku
 [2]: https://github.com/dyson/dokku-docker-options
 [3]: https://github.com/mikexstudios/dokku-nginx-alt
-[4]: https://github.com/mikexstudios/dokku-app-configfiles
 
 Changes from original:
 
