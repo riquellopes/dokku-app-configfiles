@@ -40,7 +40,11 @@ similar functionality for dokku.
 Installation and Usage
 ----------------------
 
-1. Install the plugin by cloning into the dokku plugins directory:
+1. Install the plugin.  On dokku 0.4+:
+    ```sh
+    sudo dokku plugin:install https://github.com/alexkruegger/dokku-app-configfiles.git
+    ````
+    On dokku 0.3.x, clone into the dokku plugins directory:
     ```sh
     git clone https://github.com/alexkruegger/dokku-app-configfiles.git /var/lib/dokku/plugins/dokku-app-configfiles
     ```
