@@ -1,0 +1,6 @@
+[plugin]
+description = "dokku app config files plugin"
+version = "1.0.0"
+maintainer_name = "Alex Kruegger"
+website_url = "https://github.com/alexkruegger/dokku-app-configfiles"
+[plugin.config]
